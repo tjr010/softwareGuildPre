@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(212, 166, 79);
+}
+
+h1, h4 {
+    background-color: rgb(206, 233, 241);
+    font-family: san-serif;
+    color: rgb(214, 138, 44);
+}
+
+p {
+    font-family: san-serif;
+}
+
+ul {
+    background-color: rgb(214, 138, 44);
+    font-family:serif;
+    color: rgb(206, 233, 241);
+}
+
+.menu {
+    margin-top: 5%;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer2 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.row {
+    min-width: 100%;
+}
+
+.menuItem {
+    padding: 1%;
+    width: 250px;
+    display: table-cell;
+}
+
+.contact {
+    margin-top: 3%;
+}
+
+.button {
+    background-color: rgb(206, 233, 241);
+}
+
+@media only screen and (max-width: 600px) {
+    .articleDiv {
+        min-width: 100%;
+    }
+  }
